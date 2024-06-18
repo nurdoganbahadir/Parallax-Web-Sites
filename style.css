@@ -17,18 +17,31 @@ body {
   z-index: 1;
   display: flex;
 }
-div > img {
+.img {
+  background-attachment: fixed;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  opacity: 0.5;
-  height: 100%;
+  opacity: 0.7;
+  height: 100vh;
   width: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
 }
-div > h1 {
+#img1 {
+  background-image: url(./images/img/bg.jpg);
+}
+#img2 {
+  background-image: url(./images/img/bg2.jpg);
+}
+#img3 {
+  background-image: url(./images/img/bg3.jpg);
+}
+#img4 {
+  background-image: url(./images/img/bg4.jpg);
+}
+#img5 {
+  background-image: url(./images/img/bg.jpg);
+}
+div > .head1 {
   color: white;
   font-family: sans-serif, "Lato";
   font-weight: 400;
@@ -37,7 +50,7 @@ div > h1 {
   font-size: 48px;
   letter-spacing: 10px;
   background-color: rgb(76, 76, 76);
-  padding: 24px;
+  padding: 20px;
   border-radius: 30px 0px 30px 0px;
   outline: 10px inset rgb(166, 76, 166);
   outline-offset: 10px;
@@ -53,8 +66,9 @@ div > h1 {
   align-items: center;
   text-align: center;
   color: rgb(102, 102, 102);
+  z-index: 10;
 }
-.baslik1 {
+.ara-baslik1 {
   line-height: 29px;
   font-size: 24px;
   font-family: sans-serif, "Lato";
@@ -69,4 +83,149 @@ div > p {
   font-size: 16px;
 }
 /* 2.KISIM */
-
+.sector-2 {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.baslik2 {
+  position: absolute;
+  top: 150%;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+.baslik2 img {
+  height: 100px;
+}
+/* ARA SECTOR 2 */
+.ara-baslik2 {
+  line-height: 29px;
+  font-size: 24px;
+  font-family: sans-serif, "Lato";
+  font-weight: 700;
+  font-style: normal;
+}
+.ara-sector2 {
+  position: absolute;
+  top: 200%;
+  left: 0;
+  background-color: rgb(40, 46, 52);
+  width: 100%;
+  padding: 30px 40px;
+  align-items: center;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  z-index: 10;
+}
+/* 3.KISIM */
+.sector-3 {
+  position: absolute;
+  top: 200%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.head2 {
+  color: white;
+  font-family: sans-serif, "Lato";
+  font-weight: 400;
+  font-style: normal;
+  line-height: 80px;
+  font-size: 40px;
+  letter-spacing: 10px;
+  background-color: rgb(76, 76, 76);
+  padding: 10px;
+  border-radius: 10px 0px 10px 0px;
+  outline: 10px inset rgb(166, 76, 166);
+  outline-offset: 5px;
+}
+/* ARA SECTOR 3 */
+.ara-baslik3 {
+  line-height: 29px;
+  font-size: 24px;
+  font-family: sans-serif, "Lato";
+  font-weight: 700;
+  font-style: normal;
+}
+.ara-sector3 {
+  position: absolute;
+  top: 300%;
+  left: 0;
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  padding: 30px 40px;
+  align-items: center;
+  text-align: center;
+  color: rgb(102, 102, 102);
+  z-index: 10;
+}
+/* 4.KISIM */
+.sector-4 {
+  position: absolute;
+  top: 300%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.head3 {
+  color: white;
+  font-family: sans-serif, "Lato";
+  font-weight: 400;
+  font-style: normal;
+  line-height: 80px;
+  font-size: 40px;
+  letter-spacing: 10px;
+  background-color: rgb(76, 76, 76);
+  padding: 10px;
+  border-radius: 10px 0px 10px 0px;
+  outline: 10px inset rgb(166, 76, 166);
+  outline-offset: 5px;
+}
+/* ARA SECTOR 4 */
+.ara-baslik4 {
+  line-height: 29px;
+  font-size: 24px;
+  font-family: sans-serif, "Lato";
+  font-weight: 700;
+  font-style: normal;
+}
+.ara-sector4 {
+  position: absolute;
+  top: 400%;
+  left: 0;
+  background-color: rgb(40, 46, 52);
+  width: 100%;
+  padding: 30px 40px;
+  align-items: center;
+  text-align: center;
+  color: white;
+  z-index: 10;
+}
+/* 5. KISIM */
+.sector-5 {
+  position: absolute;
+  top: 400%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.head4 {
+  color: white;
+  font-family: sans-serif, "Lato";
+  font-weight: 400;
+  font-style: normal;
+  line-height: 80px;
+  font-size: 40px;
+  letter-spacing: 5px;
+  background-color: rgb(76, 76, 76);
+  padding: 30px;
+  border-radius: 10px 0px 10px 0px;
+  outline: 8px inset rgb(166, 76, 166);
+  outline-offset: 20px;
+}
