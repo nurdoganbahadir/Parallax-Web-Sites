@@ -2,15 +2,12 @@
   box-sizing: border-box;
 }
 body {
-  width: 100%;
-  height: 100%;
   margin: 0px;
   padding: 0px;
 }
 /* 1.KISIM */
 .sector-1 {
   width: 100%;
-  height: 100%;
 }
 .baslik {
   position: absolute;
@@ -33,16 +30,43 @@ div > img {
 }
 div > h1 {
   color: white;
-  font-family: "Lato", sans-serif;
+  font-family: sans-serif, "Lato";
   font-weight: 400;
   font-style: normal;
-  line-height: 48px;
+  line-height: 80px;
   font-size: 48px;
   letter-spacing: 10px;
   background-color: rgb(76, 76, 76);
-  padding: 30px;
+  padding: 24px;
   border-radius: 30px 0px 30px 0px;
   outline: 10px inset rgb(166, 76, 166);
   outline-offset: 10px;
 }
+/* ARA SECTOR 1 */
+.ara-sector1 {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: white;
+  width: 100%;
+  padding: 30px 40px;
+  align-items: center;
+  text-align: center;
+  color: rgb(102, 102, 102);
+}
+.baslik1 {
+  line-height: 29px;
+  font-size: 24px;
+  font-family: sans-serif, "Lato";
+  font-weight: 700;
+  font-style: normal;
+}
+div > p {
+  line-height: 29px;
+  font-family: sans-serif, "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+}
 /* 2.KISIM */
+
